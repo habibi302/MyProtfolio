@@ -3,10 +3,12 @@ import myPhoto from "../../assests/images/my-pic.png";
 import { faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import { ChatWithMe, Circle, Container, Dot, Experiences, HomePage, LeftSide, MyDesc, MyPhoto, MySlogan, MyTitle, NodeJs, NodeJsIcon, ReactJs, ReactJsIcon, RightSide, WorksAndExp, Works, Years, YearsDesc } from '../../styles/home.styles';
 import {Services, Works as WorksPage, Contact} from '../../pages';
+import { Header } from '../../core-ui';
 
 export default function Home() {
   return (
     <>
+        <Header/>
         <HomePage id='home'>
           <Container>
             <LeftSide>
